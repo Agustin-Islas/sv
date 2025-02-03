@@ -26,17 +26,17 @@ function App() {
       {aceptado ? 
       <>
         <section className='sectionAcept'>
-          <img className='gifAcept' src="..\Utils\gato1.gif" alt="un gato" />
-          <img className='gifAcept' src="..\Utils\ratasLove.gif" alt="una rata" />
-          <img className='gifAcept' src="..\Utils\gato2.gif" alt="otra rata" />
+          <img className='gifAcept' src="src/Utils/gato1.gif" alt="un gato" />
+          <img className='gifAcept' src="src/Utils/ratasLove.gif" alt="una rata" />
+          <img className='gifAcept' src="src/Utils/gato2.gif" alt="otra rata" />
         </section>
       </>
       :
       <>
         {!rechazado ?
-        <img className='gifIndex' src="..\Utils\gatoPidiendoComida.gif" alt="gato pidiendo comida" />
+        <img className='gifIndex' src="src/Utils/gatoPidiendoComida.gif" alt="gato pidiendo comida" />
         :
-        <img className='gifReject' src="..\Utils\gatoPegando.gif" alt="gato pegando" />
+        <img className='gifReject' src="src/Utils/gatoPegando.gif" alt="gato pegando" />
         }
         <h1>¿Querés ir a merendar en San Valentín?</h1>  
         <button onClick={handleYes} className='SiBtn'>Si</button>
